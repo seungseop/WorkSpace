@@ -5,8 +5,8 @@
  * ------------------------------------------------------------------------------------------------------------------
  */
 
-// Set Variable
 window.onload = function() {
+	// Set Variable
 	var _imgView = document.getElementById("imgView"),
 		_img = _imgView.getElementsByTagName("img")[0],
 		_slideBar = document.getElementById("slideBar"),
@@ -17,6 +17,7 @@ window.onload = function() {
 		imgIdx = 0,
 		isFinished = false;
 
+	// Start!!!
 	preloadVRImg();
 
 	// Initialize File Name
